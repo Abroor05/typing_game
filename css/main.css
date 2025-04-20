@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #dbf38c, #a6c1ee);
+    position: relative;
+}
+
+
+.blok {
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(235, 195, 35, 0.5));
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+#difficult {
+    padding: 5px 10px;
+    border: none;
+}
+
+.sozlar {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.submit {
+    padding: 15px 50px;
+    margin: 0  auto;
+    display: block;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.time {
+    text-align: center;
+}
+
+/* modal */
+
+.modal {
+    width: 500px;
+    height: 70%;
+    background: linear-gradient(45deg, red,  rgb(234, 236, 127), green);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.modal .end {
+    padding: 15px 50px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, rgb(239, 197, 197), rgb(156, 156, 204), rgb(76, 225, 76));
+    color: white;
+    font-size: 24px;
+    background-color: #fff;
+}
+
+.modal .resultEnd {
+    padding: 15px 50px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, rgb(239, 197, 197), rgb(156, 156, 204), rgb(76, 225, 76));
+    color: white;
+    font-size: 24px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modal .try {
+    padding: 15px 50px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, rgb(239, 197, 197), rgb(156, 156, 204), rgb(76, 225, 76));
+    color: white;
+    font-size: 24px;
+    background-color: #fff;
+    
+}
+
+.modal a {
+    text-decoration: none;
+}
+
+.modal {
+    display: none;
+}
+
+.modal.active {
+    display: flex;
+}
+
+
+@media (max-width: 476px) {
+
+    body {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .blok {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .modal {
+        width: 60%;
+        left: 50px;
+        top: 50px;
+        height: 50%;
+    }
+
+    .level {
+        width: 100%;
+    }
+
+    .result h2 {
+        font-size: 16px;
+    }
+
+
+}
