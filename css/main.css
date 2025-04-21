@@ -6,7 +6,6 @@
 
 body {
     background: linear-gradient(to right, #dbf38c, #a6c1ee);
-    position: relative;
 }
 
 
@@ -19,6 +18,7 @@ body {
     box-shadow: 0 0 10px black;
     border-radius: 10px;
     padding: 10px 20px;
+    
 }
 
 .card {
@@ -63,10 +63,9 @@ body {
     background: linear-gradient(45deg, red,  rgb(234, 236, 127), green);
     background-repeat: no-repeat;
     position: absolute; 
-    top: 50%;
-    left: 50%;
-    /* top: 30px; */
-    /* left: 30%; */
+    transform: translateX(-50%);
+    left: 50%; 
+    top: 80px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -134,7 +133,7 @@ body {
 
     .modal {
         width: 80%;
-        left: 50px;
+        left: 50%px;
         top: 80px;
         height: 50%;
         padding: 10px;
