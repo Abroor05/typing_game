@@ -158,5 +158,25 @@ body {
         
     }
 
+    .modal .end {
+        padding: 10px;
+        font-size: 16px;
+    }
 
+    .modal .endScore {
+        padding: 10px;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .modal .resultEnd {
+        padding: 2px !important;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .modal .try {
+        padding: 10px;
+        font-size: 16px;
+    }
 }
