@@ -9,6 +9,8 @@ const resultEnd = document.querySelector(".resultEnd");
 const again = document.querySelector(".try");
 const difficult = document.querySelector("#difficult");
 
+alert("O'yin boshlanmoqda")
+
 let record = 0;
 var time = 10;
 let level = localStorage.getItem("level")
